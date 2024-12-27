@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom right, #fbc2eb, #a6c1ee);
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 20px 0;
+            animation: fadeIn 2s;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+            animation: fadeIn 2.5s;
+        }
+
+        p {
+            margin: 20px 0;
+            line-height: 1.6;
+            font-size: 1.2rem;
+            animation: fadeIn 3s;
+        }
+
+        img {
+            max-width: 80%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            animation: zoomIn 2s;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            color: white;
+            background-color: #ff7eb3;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            animation: fadeIn 4s;
+        }
+
+        button:hover {
+            background-color: #ff4a91;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes zoomIn {
+            0% { transform: scale(0.8); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Birthday!</h1>
+    <h2>To the Most Amazing Person Ever</h2>
+    <p>I'm so sorry for not knowing your birthday (oya mta kiwwe na hba) and for not being the boyfriend you deserve. I promise to do better and show you how much you mean to me. God bless you always! ❤</p>
+    <img src="WhatsApp_Image_2024-12-27_at_06.20.18_90f84847.jpg" alt="Happy Birthday">
+    <button onclick="alert('You’re the best thing that ever happened to me! ❤')">Click Me</button>
+</body>
+</html>
